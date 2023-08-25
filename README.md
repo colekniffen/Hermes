@@ -8,6 +8,7 @@ I planned to manufacture this board through JLC PCB.  The service allows for fai
 
 ## Design Considerations
 ![Schematic](./Images/Schematic.png)
+![Layout](./Images/Layout.png)
 
 ### USB Connection
 I decided to use a micro-USB connection for this board.  I chose this connector mainly for its size.  I considered using USB-C since it's becoming more prevalent in modern electronics and similar in size.  However, USB-C has many connections which would not be useful in this case.  I did not need anything incredibly high-speed or with high power demand.  If one wanted to use USB-C with this board, it's possible to basically just swap out the connector and terminate it as per the USB-C specifications for USB-C to micro-USB.  If this is done, it may be wise to add current protection.  I left current protection out mainly to reduce the number of components, and the likelihood of micro-USB (due to the shape) having reverse current is incredibly low.  However, I did include ESD protection.
