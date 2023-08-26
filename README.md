@@ -7,7 +7,7 @@ A small-form-factor, low-power, RF module with a programmable (SWD) STM32.  The 
 I planned to manufacture this board through JLC PCB.  The service allows for fairly cost effective manufacturing with reasonable accuracy and constraints.  I decided to use an impedance-controlled, 4-layer stack-up because of the RF section (JLC04161H-7628).  This board is 1.6 mm thick with an outer copper weight of 1oz and inner copper weight of 0.5oz.  The stack-up information is important in determining the USB differential and RF antenna trace width and/or spacing. 
 
 ## Design Considerations
-![Schematic](./Images/Schematic.png)
+![Schematic](./Images/Schematic.png) 
 ![Layout](./Images/Layout.png)
 
 ### USB Connection
